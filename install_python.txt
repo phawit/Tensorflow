@@ -1,0 +1,22 @@
+Download python-3.x version from the python.org
+
+Extract .tar.gz using the command 
+$tar xvf Python-3.x.tar.gz
+
+goto that directory using cd dir_name
+
+$./configure
+
+$sudo make
+
+$sudo make install
+
+in that you will get an error for pip it requires ssl
+
+install the service using this command
+
+$sudo apt-get install libssl-dev openssl
+
+after that again install using $sudo make install
+
+After that use python3 command to open interpreter
