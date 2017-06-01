@@ -2,3 +2,16 @@
 
 
 https://www.youtube.com/watch?v=t_pxnHpRszg
+
+
+example_google
+sudo docker run -it -p 8888:8888 tensorflow/tensorflow
+
+install package
+sudo pip3 install jupyter
+sudo pip3 install pandas
+
+
+source ~/tensorflow/bin/activate
+jupyter notebook
+
