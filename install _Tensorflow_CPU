@@ -15,3 +15,7 @@ sudo pip3 install pandas
 source ~/tensorflow/bin/activate
 jupyter notebook
 
+
+
+https://github.com/chetannaik/learning_tensorflow/blob/master/linear_regression.md
+https://python3.wannaphong.com/2016/01/%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2-machine-learning-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-tensorflow.html
