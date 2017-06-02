@@ -19,3 +19,11 @@ jupyter notebook
 
 https://github.com/chetannaik/learning_tensorflow/blob/master/linear_regression.md
 https://python3.wannaphong.com/2016/01/%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2-machine-learning-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-tensorflow.html
+
+
+**** matplot error install	
+Installing the three recommended packages there, libjpeg8-dev, libfreetype6-dev, and libpng12-dev worked! (I did already have the freetype and png packages installed) Also installed libagg-dev as recommended in comment on original post. – mp94 Aug 31 '14 at 19:21
+5	 	
+sudo apt-get build-dep matplotlib worked for me on Ubuntu 14.04 – Rudiger Wolf Sep 4 '14 at 7:53
+3	 	
+On mac: brew install freetype – Chase Roberts May 4 '15 at 22:55 
