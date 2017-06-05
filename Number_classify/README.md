@@ -1,5 +1,6 @@
 # How_to_make_a_tensorflow_image_classifier_LIVE
 
+Tensorflow 1.1.0
 Python 2.7.6
 Python 2.7.6
 https://github.com/llSourcell/How_to_make_a_tensorflow_image_classifier_LIVE/blob/master/demonotes.ipynb
