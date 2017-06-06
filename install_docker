@@ -1,0 +1,48 @@
+https://store.docker.com/editions/community/docker-ce-server-ubuntu
+
+Docker CE for Ubuntu
+
+Docker CE for Ubuntu is the best way to install the Docker platform on Ubuntu Linux environments. Simplify provisioning and setup of Docker and accelerate your time to value in building and deploying container based applications.
+
+Docker for Ubuntu is also available as an Enterprise Edition subscription with software, support and certification that can be installed on bare metal or cloud infrastructure.
+
+Features and Benefits
+
+Easy installation and setup of an optimized Docker environment for Ubuntu on bare metal servers and VMs.
+Latest Docker platform version with built in orchestration (clustering and scheduling), runtime security, container networking and volumes.
+Available as a free download with a monthly Edge or quarterly Stable release with community support.
+Also available for ARM 32 based platforms
+Prerequisites
+
+To install Docker CE, you need the 64-bit version of one of these Ubuntu versions:
+
+Yakkety 16.10
+Xenial 16.04
+Trusty 14.04
+1. Set up the repository
+
+Set up the Docker CE repository on Ubuntu. The lsb_release -cs sub-command prints the name of your Ubuntu version, like xenial or trusty.
+
+sudo apt-get -y install \
+  apt-transport-https \
+  ca-certificates \
+  curl
+
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+sudo add-apt-repository \
+       "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+       $(lsb_release -cs) \
+       stable"
+
+sudo apt-get update
+2. Get Docker CE
+
+Install the latest version of Docker CE on Ubuntu:
+
+sudo apt-get -y install docker-ce
+3. Test your Docker CE installation
+
+Test your installation:
+
+sudo docker run hello-world
