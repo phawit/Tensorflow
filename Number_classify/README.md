@@ -1,3 +1,6 @@
+RUN..
+$jupyter notebook >> demonotes.ipynb
+
 # How_to_make_a_tensorflow_image_classifier_LIVE
 
 Tensorflow 1.1.0
