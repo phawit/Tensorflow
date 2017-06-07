@@ -3,7 +3,10 @@ https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/?utm_campai
 //---------------------------------------------------------------------------------
 
 #image_classify
--Prepare environment like init floder
+-Prepare environment like img_classify'floder(this github)
+-image just example 14 photos of each kind of flower in flower_photos'folder from this github. It's not enought data for train. So you must download full photos from this link. it's contain about 633 photos of each kind of flower.
+ $curl -O http://download.tensorflow.org/example_images/flower_photos.tgz
+tar xzf flower_photos.tgz
 
 RUN..
 1.Tensorboard
@@ -29,6 +32,7 @@ RUN..
   $python label_image.py flower_photos/sunflower.jpg
 
 
+***install python, Tensorflow, ...
 ***install docker
 https://store.docker.com/editions/community/docker-ce-server-ubuntu
 Python 2.7.6 ($python -V)
