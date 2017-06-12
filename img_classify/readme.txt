@@ -1,3 +1,6 @@
+#Python 2.7.6 ($python -V)
+#Tensorflow 1.1.0 ( >>> tf.__version__ )
+
 https://www.youtube.com/watch?v=cKxRvEZd3Mw&list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal
 https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/?utm_campaign=chrome_series_machinelearning_063016&utm_source=gdev&utm_medium=yt-desc#0
 //---------------------------------------------------------------------------------
@@ -35,8 +38,12 @@ RUN..
 ***install python, Tensorflow, ...
 ***install docker
 https://store.docker.com/editions/community/docker-ce-server-ubuntu
-Python 2.7.6 ($python -V)
-Tensorflow 
+#Python 2.7.6 ($python -V)
+#Tensorflow '1.1.0'
+>>>import tensorflow as tf
+>>> tf.__version__
+'1.1.0'
+
 
 
 
