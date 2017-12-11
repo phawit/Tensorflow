@@ -1,0 +1,6 @@
+if ERROR ****TypeError: x and y must have the same dtype, got tf.float32 != tf.int32
+https://stackoverflow.com/questions/47242485/running-export-inference-graph-py-gives-difference-in-types-error
+
+
+
+
