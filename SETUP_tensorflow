@@ -15,7 +15,10 @@ https://www.tensorflow.org/install/install_linux#InstallingNativePip
   TF_PYTHON_URL : https://www.tensorflow.org/install/install_linux#TF_PYTHON_URL
 
   #Python 2.7 : sudo pip  install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.1.0-cp27-none-linux_x86_64.whl
+ sudo pip install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.4.0-cp27-none-linux_x86_64.whl
   #Python 3.4 : sudo pip3 install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.1.0-cp34-cp34m-linux_x86_64.whl
+sudo pip3 install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.4.0-cp34-cp34m-linux_x86_64.whl
+
 
 3.Relaunch Docker
 
